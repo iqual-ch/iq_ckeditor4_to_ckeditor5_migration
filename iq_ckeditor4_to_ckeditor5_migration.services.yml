@@ -4,5 +4,5 @@ services:
     arguments:
       - '@module_installer'
       - '@module_handler'
-      - '@plugin.manager.ckeditor4to5_upgrade'
+      - '@plugin.manager.ckeditor4to5upgrade.plugin'
       - '@entity_type.manager'

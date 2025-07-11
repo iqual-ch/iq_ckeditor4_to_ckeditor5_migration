@@ -2,14 +2,13 @@
 
 /**
  * @file
- * Post deploy hook to trigger migration.
+ * Install hook to trigger CKEditor migration.
  */
 
 /**
- * Trigger CKeditor 4 to 5 migration.
+ * Implements hook_install().
  */
-function iq_ckeditor4_to_ckeditor5_migration_deploy_migrate() {
-
+function iq_ckeditor4_to_ckeditor5_migration_install() {
   /** @var \Drupal\ckeditor4_to_5_migrator\MigratorInterface $migrator */
   $migrator = \Drupal::service('iq_ckeditor4_to_ckeditor5_migration.migrator');
   $migrator->migrate();

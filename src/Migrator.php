@@ -127,5 +127,6 @@ class Migrator {
       ]);
       $format->save();
     }
+  }
 
 }

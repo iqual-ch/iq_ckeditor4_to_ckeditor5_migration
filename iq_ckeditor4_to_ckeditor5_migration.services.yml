@@ -6,3 +6,5 @@ services:
       - '@module_handler'
       - '@plugin.manager.ckeditor4to5upgrade.plugin'
       - '@entity_type.manager'
+      - '@ckeditor5.restrictions'
+      - '@logger.factory'

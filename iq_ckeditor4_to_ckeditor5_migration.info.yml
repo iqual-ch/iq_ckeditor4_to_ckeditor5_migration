@@ -1,0 +1,8 @@
+name: 'CKEditor4 to CKEditor5 Migration'
+type: module
+description: 'Utility module to upgrade CKEditor4 to CKEditor5.'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - ckeditor
+  - ckeditor5

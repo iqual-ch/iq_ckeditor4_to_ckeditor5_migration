@@ -1,0 +1,8 @@
+services:
+  iq_ckeditor4_to_ckeditor5_migration.migrator:
+    class: Drupal\iq_ckeditor4_to_ckeditor5_migration\Migrator
+    arguments:
+      - '@module_installer'
+      - '@module_handler'
+      - '@plugin.manager.ckeditor4to5_upgrade'
+      - '@entity_type.manager'

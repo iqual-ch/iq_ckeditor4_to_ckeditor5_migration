@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Module to migrate CKEditor 4 to CKEditor 5.
+ */
+
+/**
+ * Implements hook_help().
+ */
+function iq_ckeditor4_to_ckeditor5_migration_help($route_name, $route_match) {
+  if ($route_name == 'help.page.ckeditor4_to_ckeditor5_migration') {
+    return t('This module provides an automatic migration from CKEditor 4 to CKEditor 5 for all configured text formats.');
+  }
+}
